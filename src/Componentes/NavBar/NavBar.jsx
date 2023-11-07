@@ -58,10 +58,10 @@ const NavBar = () => {
             </NavLink>
           </a>
           <a href="#" className="selected">
-            <div className="option">
-              <box-icon id="icon" name="group" color="#FFFFFF"></box-icon>
+          <NavLink to="/Alumno"> <div className="option">
+              <box-icon  id="icon" name="group" color="#FFFFFF"></box-icon>
               <h2>Alumno</h2>
-            </div>
+            </div> </NavLink>
           </a>
           <a href="#" className="selected">
           <NavLink to="/Login"><div className="option">

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Historial from "./Componentes/Historial/Historial";
 import Seleccion from "./Componentes/Divisiones/Seleccion";
 import HistorialAlumno from "./Componentes/HistorialAlumno/HistorialAlumno";
+import Alumno from "./Componentes/Alumno/VistaAlumno";
 function App() {
   return (
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/Ciclo_lectivo/:year" element={<Año/>}/>
           <Route path="/Seleccion" element={<Seleccion/>}/>
           <Route path="/HistorialAlumno" element={<HistorialAlumno/>}/>
+          <Route path="/Alumno" element={<Alumno/>}/>
           </Routes>
 
     </BrowserRouter>
