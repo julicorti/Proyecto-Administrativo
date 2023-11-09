@@ -20,7 +20,7 @@ const Historial = () => {
           <CartaH to="/Ciclo_lectivo/2020" year="2020" />
           <CartaH to="/Ciclo_lectivo/2021" year="2021" />
           <CartaH to="/Ciclo_lectivo/2022" year="2022" />
-         {/*  <CartaH to="/Ciclo_lectivo/2023" year="2023" /> */}
+           <CartaH to="/Ciclo_lectivo/2023" year="2023" /> 
           
           
         </div>

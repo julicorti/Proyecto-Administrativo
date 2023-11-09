@@ -6,6 +6,10 @@ import Historial from "./Componentes/Historial/Historial";
 import Seleccion from "./Componentes/Divisiones/Seleccion";
 import HistorialAlumno from "./Componentes/HistorialAlumno/HistorialAlumno";
 import Alumno from "./Componentes/Alumno/VistaAlumno";
+import SeleccionCurso from "./Componentes/Alumno/SeleccionCurso";
+import SeleccionA from "./Componentes/Alumno/Seleccion";
+import Filtro from "./Componentes/Alumno/filtro";
+import Table2 from "./Componentes/Alumno/Table2";
 function App() {
   return (
 
@@ -21,6 +25,10 @@ function App() {
           <Route path="/Seleccion" element={<Seleccion/>}/>
           <Route path="/HistorialAlumno" element={<HistorialAlumno/>}/>
           <Route path="/Alumno" element={<Alumno/>}/>
+          <Route path="/SeleccionCurso" element={<SeleccionCurso/>}/>
+          <Route path="/SeleccionA" element={<SeleccionA/>}/>
+          <Route path="/Filtro" element={<Filtro/>}/>
+          <Route path="/Table2" element={<Table2/>}/>
           </Routes>
 
     </BrowserRouter>

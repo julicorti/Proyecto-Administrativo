@@ -17,7 +17,10 @@ const Login = () => {
         <div className="F-blanco"> <img src={image} alt="" /></div>
           <div className="form">
             <form action="">
+          
               <h2>Login</h2>
+
+             
 
               <div className="input-box">
                 <input type="text" placeholder="Usuario" required />

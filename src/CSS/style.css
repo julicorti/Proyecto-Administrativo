@@ -106,8 +106,7 @@
   background-color: #fff;
 }
 .contenedor .F-blanco img {
-  width: 15vw;
-  height: 15vh;
+  width: 10vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -565,7 +564,7 @@ a.selected:before {
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   font-size: 30px;
-  color: black;
+  color: rgb(0, 0, 0);
   display: flex;
   cursor: pointer;
   justify-content: center;
@@ -740,4 +739,83 @@ table tr:nth-child(even) {
   .contenedor-dni .borde .contenido-dni h1 {
     text-align: center;
   }
+}
+.SeleccionAlumno {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SeleccionAlumno .fondoF {
+  -webkit-clip-path: polygon(32% 0, 16% 56%, 29% 100%, 0 100%, 0% 50%, 0 0);
+          clip-path: polygon(32% 0, 16% 56%, 29% 100%, 0 100%, 0% 50%, 0 0);
+  width: 100vw;
+  height: 100%;
+  background: rgba(70, 144, 187, 0.281);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.SeleccionAlumno .fondoF2 {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 73% 100%, 83% 48%, 73% 0);
+          clip-path: polygon(100% 0, 100% 50%, 100% 100%, 73% 100%, 83% 48%, 73% 0);
+  width: 100vw;
+  height: 100%;
+  background: rgba(70, 144, 187, 0.281);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.SeleccionAlumno .contenedorS {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: rgb(87, 128, 241);
+}
+.SeleccionAlumno .contenedorS h1 {
+  color: white;
+  font-size: 60px;
+}
+.SeleccionAlumno .contenedorS .ContCartas {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.cartaS {
+  width: 15vw;
+  height: 25vh;
+  border-radius: 10px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  transition: all 300ms ease;
+  text-decoration: none;
+  color: black;
+}
+.cartaS:hover {
+  transform: translateY(10%);
+  box-shadow: 0 0 5px grey;
+  box-shadow: 5px 3px 24px -4px rgb(151, 151, 151);
 }/*# sourceMappingURL=style.css.map */

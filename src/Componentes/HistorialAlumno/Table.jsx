@@ -1,6 +1,6 @@
 
 
-const Table = () => {
+const Table = (props) => {
    
    
     return (

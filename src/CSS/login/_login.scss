@@ -30,7 +30,7 @@
   height: 60vh;
   background: rgb(80, 115, 211);
   color: #fff;
-
+ 
   border-radius: 5px;
   flex-direction: row;
 
@@ -100,8 +100,10 @@
     padding: 20px 45px;
     flex-direction: column;
     justify-content: space-evenly;
+   
   }
   .F-blanco {
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,8 +112,8 @@
     background-color: #fff;
     
     img {
-      width: 15vw;
-      height: 15vh;
+      width: 10vw;
+
       object-fit: contain;
     }
   }

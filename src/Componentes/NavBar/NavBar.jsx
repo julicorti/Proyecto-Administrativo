@@ -19,6 +19,7 @@ const NavBar = () => {
     <>
     
       <nav className="siderbar close">
+        
         <header style={{ paddingLeft: slider ? "5px" : "300px" }}>
           <div className="icon__menu" onClick={sumarContador}>
             <box-icon id="btn_open" color="#000000" name="menu"></box-icon>
